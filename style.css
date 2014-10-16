@@ -1,0 +1,90 @@
+/* Body */
+body {
+    font-family: "PT Serif", sans-serif;
+    //font-family: Alegreya, Georgia, serif;
+    //font: 100%/1.5 "Alegreya", Georgia, serif;
+    //font: "Alegreya", Georgia, serif;
+    font-size: 1.3em;
+    //color: #444;
+    color: #2c3e50;
+    line-height: 175%;
+    margin: 5% 20% 5% 20%;
+}
+
+/* Headings */
+h1 {
+    font-size: 2.3em;
+    font-family: "PT Sans", sans-serif;
+    padding-bottom: .5em;
+    margin-bottom: .5em;
+    border-bottom: 1px solid #CCC;
+}
+h2, h3, h4, h5 {
+    font-family: "PT Sans", sans-serif;
+    //font-family: "Alegreya SC", Georgia, serif;
+    line-height: 105%;
+    //font-size: 100%;
+}
+
+/* Blog stuff */
+.blog_title, .blog_subtitle {
+    color: #CB4B16;
+    text-align: right;
+}
+
+.blog_subtitle, .date {
+    margin-top: -15px; /* make up for line-height increase */
+}
+
+.date, .footer, .return_to_index {
+    //font-family: "PT Sans", sans-serif;
+    font-family: "Alegreya SC", Georgia, serif;
+    font-size: 90%;
+    color: #ababab;
+}
+
+hr.footer {
+    margin-top: 5%;
+}
+
+/* Code */
+code, pre {
+    font-family: monospace;
+    font-size: 100%;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    padding: 2px 3px 2px 3px;
+}
+
+pre {
+    line-height: 150%;
+    padding: 7px 7px 7px 7px;
+    border-color: #cccccc;
+}
+
+pre > code {
+    border: none;
+    padding: 0px 0px 0px 0px;
+}
+
+/* Links */
+a:link {
+    color: cornflowerblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: tan;
+}
+
+a:hover {
+    color: darkred;
+    text-decoration: underline;
+}
+
+/* Math */
+span.math {
+    font-size: 100%;
+}
